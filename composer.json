@@ -1,0 +1,32 @@
+{
+    "name": "marko/laravel-lombok",
+    "description": "Laravel package for automatic getters and setters",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^11.39"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Marko\\LaravelLombok\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gazu1986",
+            "email": "vasic.marko.bg@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Marko\\LaravelLombok\\LombokServiceProvider"
+            ]
+        }
+    }
+}
