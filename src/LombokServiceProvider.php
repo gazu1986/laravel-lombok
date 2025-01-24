@@ -10,12 +10,12 @@ class LombokServiceProvider extends ServiceProvider
     {
         // Publish config
         $this->publishes([
-            __DIR__ . '/../config/lombok.php' => $this->app->configPath('lombok.php'),
+            dirname(__DIR__) . '/config/lombok.php' => $this->app->basePath('config/lombok.php'),
         ]);
     }
 
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__ . '/../config/lombok.php', 'lombok');
+        $this->mergeConfigFrom(dirname(__DIR__) . '/config/lombok.php', 'lombok');
     }
 }
