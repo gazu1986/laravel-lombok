@@ -21,11 +21,8 @@
             "email": "vasic.marko.bg@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
-       "require": {
-           "gazu1986/laravel-lombok": "^1.0"
-       },
     "extra": {
         "laravel": {
             "providers": [
