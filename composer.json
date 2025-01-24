@@ -1,5 +1,5 @@
 {
-    "name": "gazu1986/LaravelLombok",
+    "name": "gazu1986/laravel-lombok-lib",
     "description": "Laravel package for automatic getters and setters",
     "type": "library",
     "require": {
