@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Marko\LaravelLombok\Traits\GetterSetterTrait;
+use Gazu1986\LaravelLombok\Traits\GetterSetterTrait;
 
 class User
 {

@@ -1,5 +1,5 @@
 {
-    "name": "marko/laravel-lombok",
+    "name": "gazu1986/laravel-lombok",
     "description": "Laravel package for automatic getters and setters",
     "type": "library",
     "require": {
@@ -12,7 +12,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Marko\\LaravelLombok\\": "src/"
+            "Gazu1986\\LaravelLombok\\": "src/"
         }
     },
     "authors": [
@@ -25,7 +25,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Marko\\LaravelLombok\\LombokServiceProvider"
+                "Gazu1986\\LaravelLombok\\LombokServiceProvider"
             ]
         }
     }

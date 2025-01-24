@@ -1,6 +1,6 @@
 <?php
 
-namespace Marko\LaravelLombok\Attributes;
+namespace Gazu1986\LaravelLombok\Attributes;
 
 use Attribute;
 

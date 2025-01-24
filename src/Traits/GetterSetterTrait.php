@@ -1,6 +1,6 @@
 <?php
 
-namespace Marko\LaravelLombok\Traits;
+namespace Gazu1986\LaravelLombok\Traits;
 
 trait GetterSetterTrait
 {

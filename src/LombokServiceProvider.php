@@ -1,6 +1,6 @@
 <?php
 
-namespace Marko\LaravelLombok;
+namespace Gazu1986\LaravelLombok;
 use Illuminate\Support\ServiceProvider;
 
 class LombokServiceProvider extends ServiceProvider
