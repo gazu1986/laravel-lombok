@@ -8,9 +8,11 @@ class LombokServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        $this->publishes([
-            __DIR__ . '/../config/lombok.php' => config_path('lombok.php'),
-        ]);
+        if ($this->app->runningInConsole()) {
+            $this->publishes([
+                __DIR__ . '/../config/lombok.php' => config_path('lombok.php'),
+            ], 'lombok-config');
+        }
     }
 
     public function register()

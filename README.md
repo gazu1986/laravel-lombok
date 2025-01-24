@@ -10,6 +10,14 @@ You can install the package via Composer:
 composer require gazu1986/laravel-lombok
 ```
 
+After installing, publish the configuration file:
+
+```bash
+php artisan vendor:publish --provider="Gazu1986\LaravelLombok\LombokServiceProvider"
+```
+
+This will create a `config/lombok.php` file in your Laravel application.
+
 ## Usage
 
 To use the package, include the `GetterSetterTrait` in your class:

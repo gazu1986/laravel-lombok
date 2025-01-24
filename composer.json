@@ -29,5 +29,8 @@
                 "Gazu1986\\LaravelLombok\\LombokServiceProvider"
             ]
         }
+    },
+    "config": {
+        "sort-packages": true
     }
 }
