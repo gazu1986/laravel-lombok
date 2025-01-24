@@ -10,7 +10,7 @@ class LombokServiceProvider extends ServiceProvider
     {
         // Publish config
         $this->publishes([
-            __DIR__ . '/../config/lombok.php' => config_path('lombok.php'),
+            __DIR__ . '/../config/lombok.php' => $this->app->configPath('lombok.php'),
         ]);
     }
 
