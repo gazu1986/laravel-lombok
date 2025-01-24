@@ -5,7 +5,7 @@ A Laravel package for automatic getters and setters using PHP 8 attributes.
 ## Installation
 
 ```bash
-composer require your-vendor/lombok-laravel
+composer require gazu1986/lombok-laravel
 ```
 ## Usage
 
